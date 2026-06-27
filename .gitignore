@@ -1,0 +1,30 @@
+# build output
+build/
+*.o
+*.out
+*.exe
+*.so
+*.a
+
+# CUDA generated files
+*.cubin
+*.ptx
+*.sass
+*.fatbin
+
+# profiling files
+*.nsys-rep
+*.qdrep
+*.sqlite
+*.nvprof
+
+# result logs
+results/*.log
+results/*.csv
+
+# editor
+.vscode/
+.idea/
+
+# system
+.DS_Store
